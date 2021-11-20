@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&family=Poppins:wght@400;500;600;700&family=Rubik:wght@300;400;500&display=swap");
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+p {
+  font-family: "Poppins";
+
+  font-size: 8px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background: url(/emma.jpg) no-repeat center / cover;
+  background-attachment: fixed;
+  -webkit-background-clip: text;
+  -webkit-text-fill-center: rgb(255, 255, 255, 0);
+}
